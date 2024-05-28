@@ -1,0 +1,28 @@
+name: library_manager
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/library_logo.png
+    - assets/images/library_image.png
+    - assets/images/book1.jpeg
+    - assets/images/book2.jpeg
+    - assets/images/member1.png
+    - assets/images/member2.jpg
+   
